@@ -18,6 +18,7 @@
 		CFD2F8F61E945C78008980C2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2F8F51E945C78008980C2 /* RoundButton.swift */; };
 		CFD2F8F81E945F43008980C2 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2F8F71E945F43008980C2 /* FancyField.swift */; };
 		CFD2F8FA1E94609D008980C2 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2F8F91E94609D008980C2 /* FancyButton.swift */; };
+		CFDA2FCF1E982D6C00A67571 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA2FCE1E982D6C00A67571 /* FeedVC.swift */; };
 		FA71F05A9EE2119416145B19 /* Pods_SocialDeck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F2962E47663C17DA22DC73 /* Pods_SocialDeck.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		CFD2F8F51E945C78008980C2 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		CFD2F8F71E945F43008980C2 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		CFD2F8F91E94609D008980C2 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
+		CFDA2FCE1E982D6C00A67571 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				CF0279F51E8C349A00D8C858 /* SignInVC.swift */,
+				CFDA2FCE1E982D6C00A67571 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				CF0279F61E8C349A00D8C858 /* SignInVC.swift in Sources */,
 				CFD2F8F61E945C78008980C2 /* RoundButton.swift in Sources */,
 				CFD2F8FA1E94609D008980C2 /* FancyButton.swift in Sources */,
+				CFDA2FCF1E982D6C00A67571 /* FeedVC.swift in Sources */,
 				CF0279F41E8C349A00D8C858 /* AppDelegate.swift in Sources */,
 				CFD2F8F11E945232008980C2 /* FancyView.swift in Sources */,
 				CFD2F8F41E94537C008980C2 /* Constants.swift in Sources */,
