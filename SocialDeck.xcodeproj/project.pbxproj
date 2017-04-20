@@ -15,6 +15,7 @@
 		CF027A061E8C366800D8C858 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF027A051E8C366800D8C858 /* GoogleService-Info.plist */; };
 		CFA98E691EA6C7B2004E72FB /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA98E681EA6C7B2004E72FB /* CircleView.swift */; };
 		CFA98E6B1EA6D67F004E72FB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA98E6A1EA6D67F004E72FB /* PostCell.swift */; };
+		CFA98E6E1EA938F4004E72FB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA98E6D1EA938F4004E72FB /* DataService.swift */; };
 		CFD2F8F11E945232008980C2 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2F8F01E945232008980C2 /* FancyView.swift */; };
 		CFD2F8F41E94537C008980C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2F8F31E94537C008980C2 /* Constants.swift */; };
 		CFD2F8F61E945C78008980C2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2F8F51E945C78008980C2 /* RoundButton.swift */; };
@@ -39,6 +40,7 @@
 		CF1305D61E96FAB2001ECFD6 /* SocialDeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialDeck.entitlements; sourceTree = "<group>"; };
 		CFA98E681EA6C7B2004E72FB /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		CFA98E6A1EA6D67F004E72FB /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CFA98E6D1EA938F4004E72FB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CFD2F8F01E945232008980C2 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		CFD2F8F31E94537C008980C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CFD2F8F51E945C78008980C2 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		CF0279F21E8C349A00D8C858 /* SocialDeck */ = {
 			isa = PBXGroup;
 			children = (
+				CFA98E6C1EA938E1004E72FB /* Services */,
 				CF1305D61E96FAB2001ECFD6 /* SocialDeck.entitlements */,
 				CFD2F8F21E945361008980C2 /* Util */,
 				CF027A0A1E8C691300D8C858 /* Controller */,
@@ -139,6 +142,14 @@
 				CFDA2FCE1E982D6C00A67571 /* FeedVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		CFA98E6C1EA938E1004E72FB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CFA98E6D1EA938F4004E72FB /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		CFD2F8F21E945361008980C2 /* Util */ = {
@@ -284,6 +295,7 @@
 				CF0279F61E8C349A00D8C858 /* SignInVC.swift in Sources */,
 				CFD2F8F61E945C78008980C2 /* RoundButton.swift in Sources */,
 				CFD2F8FA1E94609D008980C2 /* FancyButton.swift in Sources */,
+				CFA98E6E1EA938F4004E72FB /* DataService.swift in Sources */,
 				CFDA2FCF1E982D6C00A67571 /* FeedVC.swift in Sources */,
 				CF0279F41E8C349A00D8C858 /* AppDelegate.swift in Sources */,
 				CFD2F8F11E945232008980C2 /* FancyView.swift in Sources */,
