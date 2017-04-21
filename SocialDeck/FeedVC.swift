@@ -30,6 +30,8 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 //print snaps separately:
                 for snap in snapshot {
                     print("SNAP:  \(snap)")
+                    
+                    //creating instance of posts and adding them to an array
                     if let postDict = snap.value as? Dictionary<String, AnyObject>{
                         let key = snap.key
                         let post = Post(postKey: key, postData: postDict)
@@ -58,9 +60,14 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         //priting posts from posts array
         let post = posts[indexPath.row]
-        print("Jorge: \(post.caption)")
         
-        return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell {
+            cell.configureCell(post: post)
+            return cell
+            
+        } else {
+            return PostCell()
+        }
         
     }
     
